@@ -1,0 +1,45 @@
+.nodeList {
+  width: 300px;
+  border: 1px solid #000;
+  margin-right: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nodeList > div {
+  width: 120px;
+  height: 80px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.nodeList > div:hover {
+  border-color: red;
+  color: red;
+}
+
+.circle {
+  width: 80px !important;
+  border-radius: 100%;
+}
+
+.ellipse {
+  border-radius: 50%;
+}
+
+.diamond {
+  margin-top: 30px !important;
+  width: 80px !important;
+  transform: rotate(44deg);
+  margin-bottom: 30px !important;
+}
+
+.diamond > span {
+  transform: rotate(-44deg);
+}
